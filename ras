@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netsurfii Flex - Internet in Thika</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(to right, gold, blue, red);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #004aad;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .contact-info {
+      margin-top: 15px;
+    }
+
+    .socials a {
+      color: gold;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: red;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      font-size: 28px;
+      padding: 14px 16px;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #128c7e;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Netsurfii Flex Logo" style="height: 80px;"><br><h1>Netsurfii Flex</h1>
+    <p>The Best Internet Service Provider in Thika</p>
+    <p>📞 0722 722 297 | 0755 558 888</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#packages">Packages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Netsurfii Flex</h2>
+    <p>We provide fast, reliable, and affordable internet services in Thika. Whether you stream, work, game, or study — we’ve got the right package for you!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Netsurfii Flex is a local ISP committed to bringing high-speed internet to homes and businesses in Thika. With excellent customer support and unbeatable value, we're proud to be the go-to provider for many happy clients.</p>
+  </section>
+
+  <section id="packages">
+    <h2>Our Packages</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Package</th>
+          <th>Speed</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic Flex</td>
+          <td>7 Mbps</td>
+          <td>Ksh 1,500</td>
+        </tr>
+        <tr>
+          <td>Standard Flex</td>
+          <td>10 Mbps</td>
+          <td>Ksh 2,000</td>
+        </tr>
+        <tr>
+          <td>Power Flex</td>
+          <td>15 Mbps</td>
+          <td>Ksh 2,500</td>
+        </tr>
+        <tr>
+          <td>Ultra Flex</td>
+          <td>20 Mbps</td>
+          <td>Ksh 3,000</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>✅ No hidden fees</li>
+      <li>✅ Fast installation</li>
+      <li>✅ Reliable uptime</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 0722 722 297 / 0755 558 888</p>
+      <p><strong>Email:</strong> netsurfiisp@gmail.com</p>
+      <p><strong>Location:</strong> Thika, Kenya</p>
+    </div>
+    <div class="socials">
+      <p>Follow us: 
+        <a href="https://www.instagram.com/netsurfii?igsh=cTR5NDg4OWE5bzZk" target="_blank">Instagram</a> |
+        <a href="#">Facebook</a> |
+        <a href="#">WhatsApp</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- WhatsApp Chat Button -->
+  <a
+    href="https://wa.me/254722722297?text=Hi%20Netsurfii%20Flex%2C%20I%27m%20interested%20in%20your%20internet%20packages"
+    class="whatsapp-float"
+    target="_blank"
+    title="Chat with us on WhatsApp"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    &copy; 2025 Netsurfii Flex. All rights reserved.
+  </footer>
+
+</body>
+</html>
