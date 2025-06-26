@@ -1,208 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Netsurfii Flex - Faster Internet for Thika</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background-color: #003366;
-      padding: 15px 30px;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: #ffcc00;
-    }
-    .hero {
-      background-color: #0056a6;
-      color: white;
-      text-align: center;
-      padding: 80px 20px;
-    }
-    .hero h1 {
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
-    .hero a {
-      background-color: #e60000;
-      color: white;
-      padding: 12px 30px;
-      border-radius: 5px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    .packages {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      border: 1px solid #ddd;
-      padding: 20px;
-      width: 220px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-    .card h3 {
-      color: #0056a6;
-    }
-    .card button {
-      padding: 10px 20px;
-      background-color: #e60000;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      margin-top: 10px;
-      font-weight: bold;
-    }
-    .mpesa, .contact {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      background-color: #fff8e1;
-      padding: 50px 20px;
-      text-align: left;
-    }
-    .mpesa div, .contact div {
-      max-width: 400px;
-    }
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Netsurfii Flex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #004aad; color: white; padding: 20px; text-align: center; }
+        .content { padding: 20px; }
+        .package { margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
 </head>
 <body>
-
-<header>
-  <div><strong>Netsurfii Flex</strong></div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#packages">Packages</a>
-    <a href="#speedtest">Speed Test</a>
-    <a href="#mpesa">Pay</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-<section class="hero">
-  <h1>FASTER INTERNET FOR THIKA</h1>
-  <a href="#packages">VIEW PACKAGES</a>
-</section>
-
-<section id="about">
-  <img src="https://img.icons8.com/ios-filled/50/ffcc00/wifi.png" alt="Wi-Fi Icon" />
-  <h2>About Us</h2>
-  <p>The best internet service provider in town.</p>
-</section>
-
-<section id="packages">
-  <h2>Our Internet Packages</h2>
-  <div class="packages">
-    <div class="card">
-      <h3>Normal Flex</h3>
-      <p>7 Mbps</p>
-      <p>Ksh 1,500</p>
-      <button>Subscribe</button>
+    <div class="header">
+        <h1>Netsurfii Flex</h1>
+        <p>The Most Reliable Internet Service Provider Globally</p>
     </div>
-    <div class="card">
-      <h3>Standard Flex</h3>
-      <p>10 Mbps</p>
-      <p>Ksh 2,000</p>
-      <button>Subscribe</button>
+    <div class="content">
+        <h2>Our Packages</h2>
+        <div class="package"><strong>Basic Flex:</strong> 7Mbps @ Ksh 1,500</div>
+        <div class="package"><strong>Bronze Flex:</strong> 10Mbps @ Ksh 2,000</div>
+        <div class="package"><strong>Silver Flex:</strong> 15Mbps @ Ksh 2,500</div>
+        <div class="package"><strong>Gold Flex:</strong> 20Mbps @ Ksh 3,000</div>
+        <h3>Contact Us</h3>
+        <p>Phone: 0722722297 / 0755558888</p>
+        <p>Email: netsurfiisp@gmail.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/netsurfii" target="_blank">@netsurfii</a></p>
     </div>
-    <div class="card">
-      <h3>Super Flex</h3>
-      <p>15 Mbps</p>
-      <p>Ksh 2,500</p>
-      <button>Subscribe</button>
-    </div>
-    <div class="card">
-      <h3>Ultra Flex</h3>
-      <p>20 Mbps</p>
-      <p>Ksh 3,000</p>
-      <button>Subscribe</button>
-    </div>
-  </div>
-</section>
 
-<section id="speedtest" style="background-color:#f5f5f5;">
-  <h2>🚀 Test Your Internet Speed</h2>
-  <p>Make sure you're getting the speeds you deserve. Click below to run test.</p>
-  <a href="https://www.speedtest.net" target="_blank" style="display:inline-block; padding:15px 30px; background-color:#e60000; color:#fff; font-weight:bold; border-radius:5px; text-decoration:none;">CHECK YOUR SPEED NOW</a>
-  <p style="margin-top:10px; font-size:14px; color:#888;">Tip: For accurate results, pause any downloads or streaming.</p>
-</section>
-
-<section id="mpesa" class="mpesa">
-  <div>
-    <h2>📲 Pay with M-PESA</h2>
-    <ol>
-      <li>Go to M-PESA on your phone</li>
-      <li>Select <strong>Lipa na M-PESA</strong></li>
-      <li>Select <strong>Paybill</strong></li>
-      <li>Enter Business Number: <strong>4090993</strong></li>
-      <li>Enter Account Number: <strong>Your Phone Number</strong></li>
-      <li>Enter the Amount</li>
-      <li>Enter M-PESA PIN and confirm</li>
-    </ol>
-    <p><strong>You will receive a confirmation SMS shortly.</strong></p>
-  </div>
-  <div id="contact">
-    <h2>📞 Contact Us</h2>
-    <p>0722722297, 0755558888</p>
-    <p>netsurfiisp@gmail.com</p>
-    <form>
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea rows="4" placeholder="Your message"></textarea>
-      <button type="submit" style="margin-top:10px; background-color:#003366; color:#fff; padding:10px 20px; border:none; border-radius:5px;">Send</button>
-    </form>
-  </div>
-</section>
-
-<footer>
-  &copy; 2025 Netsurfii Flex. All rights reserved.
-</footer>
-
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/254722722297?text=Hi%20Netsurfii%20Flex%2C%20I'm%20interested%20in%20your%20internet%20packages!" 
+       target="_blank" 
+       style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" 
+           alt="WhatsApp Chat" 
+           style="width:60px; height:60px;">
+    </a>
 </body>
 </html>
-<a href="https://wa.me/254722722297?text=Hi%20Netsurfii%20Flex%2C%20I'm%20interested%20in%20your%20internet%20packages!" 
-   target="_blank" 
-   style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
-  <img src="whatsapp-icon.png" alt="Chat with us on WhatsApp" style="width:60px; height:60px;">
-</a>
+
